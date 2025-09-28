@@ -1,6 +1,6 @@
-# GAgent — Agentic AI + ML Copilot (Beta) @ The G*Trading App
+# JAgent — Agentic AI + ML Copilot (Beta) @ The J*Trading App
 
-> *Built by Jaxon Archer.* A small, practical **agentic AI** that plans, calls tools, and answers safely for personal finance tasks. Runs locally with free data sources and a simple CLI/Streamlit UI.
+> *Built by Jaxon Archer.* A lightweight, practical **agentic AI** that plans, calls tools, and answers safely for personal finance tasks. Runs locally with free data sources and a simple CLI/Streamlit UI.
 
 ---
 
@@ -22,7 +22,7 @@ export FINNHUB_API_KEY=...             # headlines fallback
 export OPENAI_API_KEY=...              # if you use the LLM
 
 # 5) Run CLI
-python gagent.py
+python jagent.py
 
 # 6) Or start the minimal web UI
 streamlit run streamlit_app.py
@@ -79,8 +79,8 @@ Environment variables (all optional, sensible defaults exist):
 | `OPENAI_API_KEY` | — | If you use the hosted LLM. |
 | `RISK_FREE_RATE` | `0.0425` | **Sharpe** risk‑free rate. |
 | `CACHE_TTL_HOURS` | `1` | CSV cache time‑to‑live for prices. |
-| `GAGENT_CACHE_CSV` | `data/cache_prices.csv` | CSV cache path. |
-| `GAGENT_DB_PATH` | `data/gagent.sqlite` | Local SQLite database path. |
+| `JAGENT_CACHE_CSV` | `data/cache_prices.csv` | CSV cache path. |
+| `JAGENT_DB_PATH` | `data/jagent.sqlite` | Local SQLite database path. |
 
 > Keys go in `.env` during development; nothing is hard‑coded.
 
