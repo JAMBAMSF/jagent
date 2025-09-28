@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local DB / secrets
+*.db
+.env
+
+# Test caches
+.pytest_cache/
+.pytest_tmp/
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+# Virtualenv
+venv/
+.venv/
+
+# Data (ignore sensitive, keep safe demo)
+data/*
+!data/.gitkeep
+
+seeds/*
+!seeds/counterparties.json
+
+# Submissions
+*.zip

@@ -1,0 +1,20 @@
+{
+  "counterparties": [
+    { "name": "American Express Centurion" },
+    { "name": "HSBC Private Bank" },
+    { "name": "Cigna Private Client" },
+    { "name": "Goldman Sachs Private Wealth Management" },
+    { "name": "Citi Private Bank" },
+    { "name": "Optimize by Equinox" },
+    { "name": "UBS Global Family Office" },
+    { "name": "J.P. Morgan Private Bank" },
+    { "name": "Robin Hood Foundation - Founders Circle" },
+    { "name": "AT&T Signature Program" },
+    { "name": "Soho House New York" },
+    { "name": "J.P. Morgan Private Bank Mortgage" },
+    { "name": "Four Seasons Private Residences HOA" },
+    { "name": "U.S. Treasury - I.R.S." },
+    { "name": "BLADE Private Jet Club" },
+    { "name": "The Mar-a-Lago" }
+  ]
+}
